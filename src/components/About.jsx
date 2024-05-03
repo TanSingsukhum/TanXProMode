@@ -39,9 +39,9 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   return (
-<section className="relative w-full min-h-screen flex flex-col justify-center items-center bg-cover bg-center" style={{backgroundImage: `url('${backgroundImageUrl}')`, backgroundSize: '100%', backgroundRepeat: 'no-repeat'}}>
+<section className="relative w-full min-h-screen flex flex-col justify-center items-center bg-cover bg-center" style={{backgroundImage: `url('${backgroundImageUrl}')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
       <motion.div variants={textVariant()} className="text-center">
-        <h2 className={styles.sectionHeadText}>About Me</h2>
+        <h2 className={styles.sectionHeadText}></h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
