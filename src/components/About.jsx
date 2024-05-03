@@ -5,13 +5,13 @@ import { styles } from '../styles'; // Ensure correct import
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
-const backgroundImageUrl = '/red2.png'; // Define the background image URL here
+const backgroundImageUrl = '/tree.jpg'; // Define the background image URL here
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full sky-blue-gradient p-[1px] rounded-[20px] shadow-card relative overflow-hidden' // Add relative and overflow-hidden to contain the edge color
+      className='w-full sky-blue-gradient p-[1px] rounded-[20px] shadow-card relative overflow-hidden mb-10' // Add margin bottom to create space between cards
     >
       <div
         options={{
@@ -39,22 +39,17 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   return (
-    <section className="relative w-full h-screen mx-auto bg-cover bg-center" style={{backgroundImage: `url('${backgroundImageUrl}')`, backgroundSize: 'cover' }}>
-      <motion.div variants={textVariant()}>
+<section className="relative w-full min-h-screen flex flex-col justify-center items-center bg-cover bg-center" style={{backgroundImage: `url('${backgroundImageUrl}')`, backgroundSize: '100%', backgroundRepeat: 'no-repeat'}}>
+      <motion.div variants={textVariant()} className="text-center">
         <h2 className={styles.sectionHeadText}>About Me</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-white text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap justify-center gap-x-6 gap-y-6'> {/* Added gap-x-6 and gap-y-6 classes */}
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
@@ -63,4 +58,6 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About, "about");
+
+
+export default About;
