@@ -45,7 +45,7 @@ const Experience = () => {
     <>
       <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: '#000000', zIndex: -1 }} />
       <motion.div className="experience-header" variants={textVariant()} style={{ textAlign: 'center', marginTop: '20px' }}>
-        <h2 style={{ fontSize: '40px', fontWeight: 'bold' }}>Experiences & Projects</h2>
+        <h2 style={{ fontSize: '40px', fontWeight: 'bold' }}>EXPERIENCES & PROJECTS</h2>
       </motion.div>
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
