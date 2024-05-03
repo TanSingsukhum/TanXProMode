@@ -21,7 +21,7 @@ const Hero = () => {
                 deleteSpeed: 0, // Set delete speed to 0 so that the text doesn't get deleted
                 delay: 50, // Adjust the delay value to make it start faster
                 startDelay: 0, // Set start delay for the first Typewriter component
-                pauseFor: 100000, // Set a large pause value to prevent deletion
+                pauseFor: 1000000000, // Set a large pause value to prevent deletion
                 cursor: "", // Remove the blinking cursor
               }}
             />
@@ -32,7 +32,7 @@ const Hero = () => {
                 strings: ["Nice to meet you! I'm Thanaphon's digital companion."],
                 autoStart: true,
                 loop: false, // Set loop to true to keep the text displayed after typing
-                pauseFor: 100000, // Set a large pause value to prevent deletion
+                pauseFor: 10000000000, // Set a large pause value to prevent deletion
                 cursor: "", // Remove the blinking cursor
                 delay: 50,
 
