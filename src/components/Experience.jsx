@@ -1,18 +1,17 @@
-
-
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
 
 import 'react-vertical-timeline-component/style.min.css';
 
-import {styles} from '../styles';
+import { styles } from '../styles';
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import { BaconCanvas } from "./canvas";
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
-    contentStyle={{ background: '#1d1836', color: '#fff' }}
+    contentStyle={{ background: '#4b0082', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid #232631' }}
     date={experience.date}
     iconStyle={{ background: experience.iconBg }}
@@ -41,25 +40,22 @@ const ExperienceCard = ({ experience }) => (
   </VerticalTimelineElement>
 );
 
-
-
 const Experience = () => {
   return (
     <>
-    <motion.div variants={textVariant()}>
-     Experiences
-    </motion.div>
-    <div className="mt-20 flex flex-col">
-    <VerticalTimeline>
-      {experiences.map((experience, index)=>(
-        <ExperienceCard key={index} experience={experience}/>
-
-      ))}
-    </VerticalTimeline>
-    </div>
+      <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: '#000000', zIndex: -1 }} />
+      <motion.div className="experience-header" variants={textVariant()} style={{ textAlign: 'center', marginTop: '20px' }}>
+        <h2 style={{ fontSize: '40px', fontWeight: 'bold' }}>Experiences & Projects</h2>
+      </motion.div>
+      <div className="mt-20 flex flex-col">
+        <VerticalTimeline>
+          {experiences.map((experience, index) => (
+            <ExperienceCard key={index} experience={experience} />
+          ))}
+        </VerticalTimeline>
+      </div>
     </>
+  );
+};
 
-  )
-}
-
-export default Experience
+export default Experience;

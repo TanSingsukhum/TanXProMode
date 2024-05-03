@@ -1,0 +1,11 @@
+Model Information:
+* title:	Nvidia GeForce RTX 3090 Founder's Edition (Free)
+* source:	https://sketchfab.com/3d-models/nvidia-geforce-rtx-3090-founders-edition-free-9558cdaf901143369d8752b9491c41d2
+* author:	kirigami318 (https://sketchfab.com/kirigami318)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Nvidia GeForce RTX 3090 Founder's Edition (Free)" (https://sketchfab.com/3d-models/nvidia-geforce-rtx-3090-founders-edition-free-9558cdaf901143369d8752b9491c41d2) by kirigami318 (https://sketchfab.com/kirigami318) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
