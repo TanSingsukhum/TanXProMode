@@ -39,24 +39,21 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   return (
-<section className="relative w-full min-h-screen flex flex-col justify-center items-center">
-  <motion.div variants={textVariant()} className="text-center">
-    <h2 className={styles.sectionHeadText}></h2>
-  </motion.div>
-  <motion.p
-    variants={fadeIn("", "", 0.1, 1)}
-    className='mt-4 text-secondary text-white text-[17px] max-w-3xl leading-[30px]'
-  >
-  </motion.p>
+    <section className="relative w-full min-h-screen flex flex-col justify-center items-center">
+      <motion.div variants={textVariant()} className="text-center">
+        <h2 className={styles.sectionHeadText}>Thanaphon's Photo</h2> {/* Add the title here */}
 
-  <div className='mt-20 flex flex-wrap justify-center gap-x-6 gap-y-6'>
-    {services.map((service, index) => (
-      <ServiceCard key={service.title} index={index} {...service} />
-    ))}
-  </div>
-</section>
+      </motion.div>
+
+      <div className='mt-20 flex flex-wrap justify-center gap-x-6 gap-y-6'>
+        {services.map((service, index) => (
+          <ServiceCard key={service.title} index={index} {...service} />
+        ))}
+      </div>
+    </section>
   );
 };
+
 
 
 

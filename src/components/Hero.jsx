@@ -34,7 +34,7 @@ const Hero = () => {
                 loop: false, // Set loop to true to keep the text displayed after typing
                 pauseFor: 10000000000, // Set a large pause value to prevent deletion
                 cursor: "", // Remove the blinking cursor
-                delay: 50,
+                delay: 20,
 
               }}
             />
@@ -45,9 +45,10 @@ const Hero = () => {
                 strings: [ "I love developing user interfaces, games, and web apps....", "Did you know? you can play around with that desktop!", "Give it a try!", "Unfortunately, you cannot use that desktop, I have skill issue problem where I need to make that works soon!"],
                 autoStart: true,
                 loop: false,
-                delay: 50,
+                delay: 30,
                 typeSpeed: 10,
                 cursor: "", // Remove the blinking cursor
+                deleteSpeed: 5,
               }}
             />
           </motion.h3>
