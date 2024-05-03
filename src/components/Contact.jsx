@@ -73,7 +73,7 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <h3 className={styles.sectionHeadText}>Contact</h3>
-        <p className={styles.sectionSubText}>I mostly use LinkedIn</p>
+        <p className={styles}>I mostly use LinkedIn now and it is the most secure and fastest way to contact me</p>
 
         <form
           ref={formRef}
