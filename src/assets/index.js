@@ -43,6 +43,7 @@ import suphatra from "./company/suphatra.png";
 import beaver from "./company/beaver.png";
 import eazyrental from "./company/eazyrental.png";
 import umpquabank from "./company/umpquabank.png";
+import gdsc from "./company/gdsc.png";
 
 
 import beavsai from "./beavsai.png";
@@ -56,6 +57,7 @@ export {
   creator,
   mobile,
   web,
+  gdsc,
   github,
   menu,
   close,

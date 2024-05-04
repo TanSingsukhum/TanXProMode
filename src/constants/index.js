@@ -15,6 +15,7 @@ import {
     py,
     p1,
     p2,
+    gdsc,
     p3,
     p4,
     p5,
@@ -144,6 +145,16 @@ import {
       date: "Summer 2024",
       points: [
         "Exciting!!!!!",
+      ],
+    },
+    {
+      title: "Public Relation",
+      company_name: "Google Developer Student Clubs",
+      icon: gdsc,
+      iconBg: "#383E56",
+      date: "May 2024 - Present",
+      points: [
+        "More to do!",
       ],
     },
     {
