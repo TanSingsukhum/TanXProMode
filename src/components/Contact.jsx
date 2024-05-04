@@ -72,7 +72,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <h3 className={styles.sectionHeadText}>Contact</h3>
+        <h3 className={styles.sectionHeadText}>Connect</h3>
         <p className={styles}>I mostly use LinkedIn now and it is the most secure and fastest way to contact me</p>
 
         <form
@@ -116,6 +116,18 @@ const Contact = () => {
   >
     {/* Add LinkedIn icon here if you have one */}
     <span>Go to LinkedIn</span>
+  </a>
+</label>
+<label className='flex flex-col'>
+  <span className='text-white font-medium mb-4'>Roblox</span>
+  <a
+    href="https://www.roblox.com/users/3221688667/profile"
+    target='_blank'
+    rel='noopener noreferrer'
+    className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium cursor-pointer inline-flex items-center gap-2'
+  >
+    {/* Add LinkedIn icon here if you have one */}
+    <span>Go to Roblox</span>
   </a>
 </label>
         </form>
