@@ -12,18 +12,16 @@ import { BaconCanvas } from "./canvas";
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
     contentStyle={{ background: '#4b0082', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid #232631' }}
+    contentArrowStyle={{ borderRight: '7px solid #fff' }} // Set arrow border to white
     date={experience.date}
-    iconStyle={{ background: experience.iconBg }}
+    iconStyle={{ background: '#fff', color: experience.iconBg, display: 'flex', justifyContent: 'center', alignItems: 'center' }} // Set icon background to white
     icon={
-      <div>
-        <img
-          src={experience.icon}
-          alt={experience.company_name}
-          className="logo-img"
-          style={{ width: '100px', height: 'auto' }} // Adjust width as needed
-        />
-      </div>
+      <img
+        src={experience.icon}
+        alt={experience.company_name}
+        className="logo-img"
+        style={{ width: '100px', height: 'auto' }} // Adjust width as needed
+      />
     }
   >
     <div>
@@ -39,6 +37,7 @@ const ExperienceCard = ({ experience }) => (
     </ul>
   </VerticalTimelineElement>
 );
+
 
 const Experience = () => {
   return (

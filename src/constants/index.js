@@ -15,7 +15,10 @@ import {
     git,
     figma,
     docker,
-    meta,
+    suphatra,
+    umpquabank,
+    eazyrental,
+    beaver,
     starbucks,
     tesla,
     shopify,
@@ -90,55 +93,47 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Incoming Intern Summer 2024",
+      company_name: "Umpqua Bank",
+      icon: umpquabank,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Summer 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Exciting!!!!!",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Freelance Web Developer",
+      company_name: "EAZY Rental",
+      icon: eazyrental,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Nov 2023 - Dec 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Freelanced a car rental website, attracting nearly a hundred unique visitors within a month post-launch, with 88% new and 13% returning visitors.",
+        "Developed (CMS) datasets for over 50 cars, boosting a Portland-based car rental start-up near PDX airport.        ",
+        "Learned dataset management, collector tools, and integrated Content Management Systems (CMS).",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Student Leader Peer Navigator",
+      company_name: "Oregon State University",
+      icon: beaver,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Dec 2022 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Supported over 10,000 students and the local community in accessing essential resources.",
+        "Offered assistance to students confronting housing, financial difficulties, and other fundamental necessities.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Family Business | Server",
+      company_name: "Suphatra Thai",
+      icon: suphatra,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Dec 2017 - Sep 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Built strong customer relations with over 200 customers per day as a server, generating over $1000-2000 in sales per day.        ",
+        "Elevated communication and service skills over 5 years of part-time experience, building strong customer connections.        ",
       ],
     },
   ];
@@ -172,62 +167,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "2D Survival Game",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+
+      "Final Project: Island Survival is a thrilling 2D adventure game created by a team of 4 for web development. Players are catapulted into an ominous island where they must break free. The game immerses users in diverse landscapes, NPC interactions, and pivotal missions to escape. Facing adversaries and a formidable Boss, players navigate strategic encounters and uncover island secrets. Built using the Godot game engine, with an Express server connected to a JSON file for data storage. Players can input their time scores into the scoreboard to track progress.",
       tags: [
         {
-          name: "react",
+          name: "GodotScript",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "HTML/CSS",
           color: "pink-text-gradient",
+        },
+        {
+          name: "JSON",
+          color: "blue-text-gradient",
         },
       ],
       image: carrent,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "BeavsAI",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Joined a 5-person team where I collaborated as a Front-End and UX/UI designer in a 4-member subgroup, contributing to developing an AI Chatbot from scratch and working on crafting a landing page. Worked with AI and back-end teams to deploy the Chatbot web app connecting with OpenAI, facilitating class information retrieval for university students.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Typecript",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "HTML/CSS",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/OSU-App-Club/beavsAI-frontend",
     },
     {
-      name: "Trip Guide",
+      name: "Properties Renting Website",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Developed a rental properties website to collect owner and client information using MySQL databases. Enabled seamless data management for both clients and owners, including features for adding and deleting entries.",
       tags: [
         {
-          name: "nextjs",
+          name: "Handlebars",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "SQL/MySQL",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
