@@ -42,7 +42,7 @@ const Hero = () => {
           <motion.h3 className="text-lg"> {/* Set font size to H3 */}
             <Typewriter
               options={{
-                strings: [ "I love developing user interfaces, games, and web apps....", "Did you know? you can play around with that desktop!", "Give it a try!", "Unfortunately, you cannot use that desktop, I have skill issue problem where I need to make that works soon!"],
+                strings: [ "I love developing user interfaces, games, and web apps....", "Did you know? you can play around with that desktop!", "Give it a try!", "Unfortunately, you cannot use that desktop, I still have skill issue problem.", "Also, dont forget to scroll down for more!"],
                 autoStart: true,
                 loop: false,
                 delay: 30,
