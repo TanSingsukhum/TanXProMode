@@ -11,7 +11,7 @@ import { BaconCanvas } from "./canvas";
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
-    contentStyle={{ background: '#8b008b', color: '#fff' }}
+    contentStyle={{ background: '#4b0082', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid #fff' }} // Set arrow border to white
     date={experience.date}
     iconStyle={{ background: '#fff', color: experience.iconBg, display: 'flex', justifyContent: 'center', alignItems: 'center' }} // Set icon background to white
