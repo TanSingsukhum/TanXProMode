@@ -190,7 +190,27 @@ import {
   ];
   
   const projects = [
- 
+    {
+      name: "2D Survival RPG",
+      description:
+      "  Island Survival is a 2D adventure game where you're trapped on an island and must escape. Explore, talk to NPCs, and complete missions to plan your getaway. Face challenges and a boss in a cave. Think fast, survive, and beat others' scores on the scoreboard. Made with Godot game engine and an Express server linked to a JSON file for data storage. We won Hall of Fame and check out demo on my LinkedIn",
+      tags: [
+        {
+          name: "GdScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML/CSS/FIGMA",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: survival,
+      source_code_link: "https://github.com/osu-cs290-f23/final-project-wumpus-game-team",
+    },
     {
       name: "BeavsAI",
       description:
