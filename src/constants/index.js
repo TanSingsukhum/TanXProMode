@@ -14,6 +14,24 @@ import {
     mongodb,
     git,
     figma,
+    c1,
+    c2,
+    py,
+    p1,
+    p2,
+    p3,
+    p4,
+    p5,
+    p6,
+    p7,
+    p8,
+    p9,
+    p10,
+    p11,
+    p12,
+    p13,
+    p14,
+    p15,
     docker,
     suphatra,
     umpquabank,
@@ -25,6 +43,11 @@ import {
     carrent,
     jobit,
     tripguide,
+    movie,
+    rental,
+    beavsai,
+    survival,
+
     threejs,
   } from "../assets";
   
@@ -34,25 +57,45 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      icon: p1,
     },
     {
-      title: "Game Developer",
-      icon: backend,
+      icon: p2,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      icon: p3,
     },
     {
-        title: "Photographer",
-        icon: creator,
+        icon: p4,
       },
       {
-        title: "Artis",
-        icon: creator,
+        icon: p5,
       },
+      {
+        icon: p6,
+      },
+      {
+        icon: p7,
+      },
+
+      {
+        icon: p14,
+      },
+      {
+        icon: p10,
+      },
+      {
+        icon: p11,
+      },
+
+      {
+        icon: p13,
+      },
+      {
+        icon: p8,
+      },
+
+
   ];
   
   const technologies = [
@@ -87,6 +130,18 @@ import {
     {
       name: "figma",
       icon: figma,
+    },
+    {
+      name: "c1",
+      icon: c1,
+    },
+    {
+      name: "py",
+      icon: py,
+    },
+    {
+      name: "c2",
+      icon: c2,
     },
 
   ];
@@ -167,11 +222,11 @@ import {
   
   const projects = [
     {
-      name: "2D Survival Game",
+      name: "2D Survival Game ",
       description:
 
-      "Final Project: Island Survival is a thrilling 2D adventure game created by a team of 4 for web development. Players are catapulted into an ominous island where they must break free. The game immerses users in diverse landscapes, NPC interactions, and pivotal missions to escape. Facing adversaries and a formidable Boss, players navigate strategic encounters and uncover island secrets. Built using the Godot game engine, with an Express server connected to a JSON file for data storage. Players can input their time scores into the scoreboard to track progress.",
-      tags: [
+      "Island Survival: a 2D adventure game by a team of 4 for web development. Players explore an ominous island, facing challenges and a final Boss. Built with Godot game engine and Express server. We recieved Hall of Fame and the demo @ my LinkedIn. ",     
+       tags: [
         {
           name: "GodotScript",
           color: "blue-text-gradient",
@@ -184,13 +239,10 @@ import {
           name: "HTML/CSS",
           color: "pink-text-gradient",
         },
-        {
-          name: "JSON",
-          color: "blue-text-gradient",
-        },
+
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: survival,
+      source_code_link: "https://github.com/TanSingsukhum/Island-Survival-2D-Godot",
     },
     {
       name: "BeavsAI",
@@ -206,11 +258,11 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "HTML/CSS",
+          name: "HTML/CSS/FIGMA",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: beavsai,
       source_code_link: "https://github.com/OSU-App-Club/beavsAI-frontend",
     },
     {
@@ -231,8 +283,29 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: rental,
+      source_code_link: "https://github.com/TanSingsukhum/DatabaseRental/tree/master",
+    },
+    {
+      name: "Real Time Movie API",
+      description:
+      "Develop and design a movie website utilizing TMDB's API, with Huruko Microservice for server hosting. The website will showcase current popular movies, along with details such as release dates, showtimes, cast, posters, and descriptions.",
+        tags: [
+        {
+          name: "TypeScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML/CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "API/Microservice",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: movie,
+      source_code_link: "https://github.com/TanSingsukhum/cs361-microservice-final",
     },
   ];
   
