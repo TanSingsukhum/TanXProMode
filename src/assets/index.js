@@ -43,14 +43,8 @@ import suphatra from "./company/suphatra.png";
 import beaver from "./company/beaver.png";
 import eazyrental from "./company/eazyrental.png";
 import umpquabank from "./company/umpquabank.png";
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 import beavsai from "./beavsai.png";
 import movie from "./movie.png";
 import survival from "./survival.png";
@@ -96,17 +90,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
   suphatra,
   umpquabank,
   beaver,
   eazyrental,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   movie,
   rental,
   beavsai,
