@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 import Typewriter from 'typewriter-effect'; // Import Typewriter component
+import { SectionWrapper } from "../hoc";
 
 const Hero = () => {
   return (
@@ -55,6 +56,24 @@ const Hero = () => {
         </div>
       </div>
       <ComputersCanvas style={{ position: "absolute", bottom: 0, left: 0, width: "100%" }}/>
+      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+  <a href='#TanX'>
+    <div className='w-[30px] h-[55px] rounded-3xl border-2 border-secondary flex justify-center items-start p-2'>
+      <motion.div
+        animate={{
+          y: [0, 24, 0],
+        }}
+        transition={{
+          duration: 1.5,
+          repeat: Infinity,
+          repeatType: "loop",
+        }}
+        className='w-3 h-3 rounded-full bg-white mb-1'
+      />
+    </div>
+  </a>
+</div>
+
     </section>
   )
 }

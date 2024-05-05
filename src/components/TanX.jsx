@@ -2,8 +2,9 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { BaconCanvas } from './canvas';
 import Typewriter from 'typewriter-effect'; // Import Typewriter component
+import { SectionWrapper } from "../hoc";
 
-const Feedbacks = () => {
+const TanX = () => {
   return (
     <section className="relative w-full h-screen mx-auto bg-cover bg-center" style={{backgroundImage: "url('/panther.png')", backgroundSize: 'cover' }}>
       <div className={`${styles.paddingX} absolute inset-0 flex flex-col justify-start items-center gap-10 ml-10`}> {/* Adjusted ml-20 to ml-10 */}
@@ -59,4 +60,4 @@ const Feedbacks = () => {
   );
 };
 
-export default Feedbacks;
+export default SectionWrapper(TanX, "TanX");

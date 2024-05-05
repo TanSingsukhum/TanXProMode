@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works } from './components'; // Remove StarsCanvas import
+import { About, Contact, Experience, TanX, Hero, Navbar, Tech, Works } from './components'; // Remove StarsCanvas import
 
 const App = () => {
   return (
@@ -9,7 +9,7 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <Feedbacks />
+        <TanX />
         <Experience />
         {/* Remove StarsCanvas component */}
         <Tech />
